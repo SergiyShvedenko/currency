@@ -2,6 +2,7 @@ from flask import Flask, request
 from PythonPro.project.flask_home.utils import generate_customers, space_numbers
 
 
+
 app = Flask(__name__)
 
 
