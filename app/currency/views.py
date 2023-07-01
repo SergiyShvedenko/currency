@@ -17,7 +17,7 @@ def rate_list(request):
 
 def contactus_list(request):
     results = []
-    rates = Rate.objects.all()
+    rates = ContactUs.objects.all()
 
     for rate in rates:
         results.append(
